@@ -5,7 +5,7 @@ require('../db/mongoose');  /// so that mongoose connect to database
 const userRouter=require('./routers/user'); ///userrouter import
 const taskRouter=require('./routers/task'); ///taskrouter  import
 
-const port=process.env.PORT;
+const port=process.env.PORT||3003;
 
 
 app.use(express.json());
