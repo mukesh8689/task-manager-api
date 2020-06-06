@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/db/index.js",
-    "dev": "env-cmd ./config/dev.env nodemon src/db/index.js"
+    "dev": "env-cmd ./config/dev.env nodemon task-manager/src/db/index.js"
   },
   "keywords": [],
   "author": "",
